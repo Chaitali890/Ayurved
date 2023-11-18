@@ -16,14 +16,18 @@
 	position: fixed;
 	top: 0px;
 	left:0px; 
-	border-radius: 20px;
+	
+}
+ img{
+	width: 98px;
+	border-radius: 50px;
+	
 }
 .menu-bar
 { 
-	 background:darkcyan;
+	 background:transparent;
      text-align: center;
      margin-top: 0%;
-
 }
 
 .menu-bar ul 
@@ -31,6 +35,7 @@
 	display: inline-flex;
 	list-style: none;
 	color: #fff;
+	margin-left: 30px;
 
 }
 
@@ -106,11 +111,13 @@
 }
 .search input[type=text]
 {
- 	 width:100px;
+ 	 width:200px;
      height:30px;
      border-radius:25px;
      border: none;
-     top: 10px;
+     margin: 20px;
+	 padding: 20px;
+	
 }
          
  .search
@@ -127,6 +134,7 @@
      float: right;
      padding: 5px 10px;
      margin-right: 16px;
+	 margin-top: 20px;
      font-size: 12px;
      border: none;
     cursor: pointer;   
@@ -306,6 +314,7 @@
 {
 	text-align: center;
 	display: inline-flex;
+	padding-left: 200px;
 
 }
 .footer ul li
